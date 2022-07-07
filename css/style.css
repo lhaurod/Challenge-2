@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+/* ABOUT ME SECTION STARTS */
+.section-title {
+  font-size: 48px;
+  border-bottom: 3px solid;
+  color:rgb(113, 132, 113) ;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.primary-border {
+  border-color: rgb(113, 132, 113) ;
+}
+
+.bio p {
+  line-height: 1.7;
+  color: rgb(113, 132, 113) ;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+  /* ABOUT ME SECTION END */
+
+  /* Work */
+  .my-work{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  .job-description:hover {
+  background-color: rgb(210, 227, 210);
+  border-radius: 20px;
+  }
+  
+  .job {
+    margin: 20px;
+    flex: 1;
+    background: rgb(113, 132, 113) ;
+    color: white;
+    text-align:  center;
+    border-radius: 20px;
+  }
+  
+  .job img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .job-description h3 {
+    font-size: 20px;
+  }
+  .job-description {
+    padding: 25px;
+    line-height: 1.3;
+  }
+  
+  .job-description h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .job-description p {
+    font-size: 17px;
+  }
+
+   /* Work */
+  
+  /* HEADER START */
+
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    align-items: center;
+  }
+
+  header {
+    padding: 20px 35px;
+    background-color:rgb(15, 56, 15);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(113, 132, 113) ;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: rgb(97, 120, 97) ;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    border-radius: 15px;
+    text-shadow: none;
+  }
+  
+  /* HEADER END */
+
+  /* HERO STYLES STARTS */ 
+  .hero {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+  .hero-cta{
+    width: 25%;
+    text-align: center;
+    margin: 9.6%;
+    color: rgb(113, 132, 113);
+    font-size: 12px;
+    line-height: 1;  
+  }
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  /* HERO STYLES END */
+
+  /* CONTACT ME START */
+.contact {
+  background:rgb(97, 120, 97);
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
+.contact-info iframe {
+  height: 400px;
+}
+
+.contact-info div {
+  color: white;
+}
+
+.contact-info h3 {
+  color: white;
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-form input {
+  border: 1px solid white;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+}
+
+.contact-form button, .contact-form textarea {
+  width: 100%;
+  border: none;
+  background: rgb(201, 216, 201);
+  color: rgb(97, 120, 97);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: white;
+  background:rgb(97, 120, 97);
+}
+
+.contact-info a {
+  color: white;
+}
+/* CONTACT ME END */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-cta, .hero-form {
+    width: 100%;
+  }
+  
+  .hero-cta {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+  
+  .job {
+    flex: 0 70%;
+  }
+  
+  .contact-info iframe{
+    flex: 1 100%;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+
+  .job-img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  .job-name h3, .role h4 {
+    display: block;
+  }
+}
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hero-form button {
+    width: 100%;
+  }
+
+  .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .job {
+    flex: 0 100%;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+
+  .contact-form {
+    order: 3;
+  }
+}
+
