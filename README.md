@@ -8,7 +8,7 @@ A website that offers an overview of  a potential employee's deployed portfolio
 * CSS
 
 ## Website
-
+https://lhaurod.github.io/Challenge-2/
 
 ## Contribution
 Made with ❤️ by [Lhaura Rodriguez]
