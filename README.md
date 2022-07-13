@@ -1,7 +1,7 @@
-# Jeanette Gelao
+# Lhaura Rodriguez
 
 ## Purpose
-A website that offers an overview of  a potential employee's deployed portfolio
+A website that offers an overview of a potential employee's deployed portfolio
 
 ## Built With
 * HTML
